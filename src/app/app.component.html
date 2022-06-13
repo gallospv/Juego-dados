@@ -1,0 +1,18 @@
+<div class="container-fluid h-100 bg-danger">
+  <div class="container">
+     <div class="col-12 w-100  text-center">
+        <button class="btn btn-success mt-5 bolder" (click)="tirarDados()">LANZAR DADOS</button>
+        <div class="row mt-5">
+           <div class="col-6 flex-end p-5">
+              <img width="50%" [src]="dadoizquierdo" alt="">
+           </div>
+           <div class="col-6 flex-base p-5">
+              <img width="50%" [src]="dadoderecho" alt="">
+           </div>
+        </div>        
+
+        <p class="text-white bolder font-size-50 mt-5"><i class="fa fa-smile-o" aria-hidden="true"></i> {{run}} <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+  
+     </div>
+  </div>
+</div> 
